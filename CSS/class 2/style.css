@@ -1,0 +1,60 @@
+/* div ~ p {
+  background-color: crimson ;
+} */
+
+@font-face {
+    font-family: 'smit';
+    src: url('./YujiMai-Regular.ttf');
+}
+
+
+/* p::first-line{
+    font-size: xx-large;
+    color: red;
+} */
+
+/* a:link{
+    color: black;
+}
+
+a:visited{
+    color: yellow;
+} */
+
+p{
+    /* text-shadow: -10px -10px 10px rebeccapurple; */
+    text-align: justify;
+    /* word-spacing: 10px; */
+    /* line-height: 50px; */
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-style: italic;
+    /* font-family: 'smit'; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* background-color: hsla(43, 98%, 50%, 1); */
+    /* color: rgba(255, 87, 198, 0.5); */
+    /* opacity: 0.5; */
+}
+
+#para{
+    text-indent: 80px;
+}
+
+
+input:hover{
+    background-color: gray;
+    color: white;
+    /* width: 50%; */
+
+}
+/* 
+input:active{
+    background-color: yellow;
+} */
+
+input:focus{
+    background-color: red;
+}
+
+

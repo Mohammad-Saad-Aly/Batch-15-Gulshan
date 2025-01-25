@@ -1,0 +1,35 @@
+/* h1{
+    background-color: red;
+    color: white;
+    text-align: center;
+} */
+/* 
+
+*{
+    background-color: black;
+    color: white;
+} */
+
+/* h1, a, p{
+    background-color: red;
+    color: white;
+} */
+
+
+.para{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: none;
+}
+
+#abc{
+    background-color: #32a893;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: line-through;
+}
+
+

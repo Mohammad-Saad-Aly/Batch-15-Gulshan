@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    background-color: black;
+    /* flex-direction: row-reverse; */
+    height: 300px;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.one{
+    background-color: aqua;
+    order: 2;
+}
+.two{
+    background-color: red;
+    order: 1;
+}
+.three{
+    background-color: gray;
+    order: 3;
+}
+.four{
+    background-color: green;
+    order: -2;
+}
+.five{
+    background-color: bisque;
+    order: -1;
+}
