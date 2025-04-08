@@ -1,0 +1,22 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.abc{
+    /* background-color: black; */
+    /* color: white; */
+    list-style: none inside;
+    text-align: center;
+    list-style-type: decimal;
+    margin: 2px;
+    padding: 2px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
