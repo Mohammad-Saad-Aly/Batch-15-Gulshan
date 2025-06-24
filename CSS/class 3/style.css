@@ -1,0 +1,97 @@
+/* .main{
+    background-color: tan;
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    padding: 5px;
+    border: 5px solid green; */
+
+    /* box-shadow: 0px 0px 40px black; */
+
+    /* border-top: 4px groove black; */
+    /* border-bottom: 7px dotted black; */
+    /* border-right: 10px solid rebeccapurple; */
+
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+
+    /* margin-left: 130px; */
+    /* margin: 50px 50px 50px 50px; */
+    /* margin-top: 10%; */
+    /* margin-left: 20%; */
+    /* height: 200px; */
+    /* overflow: scroll; */
+/* } */
+
+/* .main{
+    text-align: center;
+    margin-top: 15%;
+} */
+
+
+/* .main > .sub{
+    background-color: black;
+    color: white;
+    width: 10%;
+    height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    border: 5px solid red;
+    border-radius: 10px;
+} */
+
+/* .main > .sub:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.5);
+    transition: 1s;
+} */
+
+/* ul{
+    background-color: yellowgreen;
+    height: 70px;
+    padding-top: 20px;
+    position: fixed;
+    top: -16px;
+    width: 100%;
+
+}
+
+ul > li{
+    display: inline-block;
+    font-size: 40px;
+    width: 210px;
+    text-align: center;
+} */
+
+
+
+
+.child{
+    border: 3px solid black;
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.parent{
+    text-align: center;
+}
+
+
+
+.child > button{
+    background-color: black;
+    color: white;
+    width: 60%;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.child > img{
+    width: 20%;
+}
+

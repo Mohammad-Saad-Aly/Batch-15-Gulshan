@@ -1,0 +1,85 @@
+/* ul > li{ */
+    /* list-style: inside decimal; */
+    /* text-align: center; */
+    /* list-style-type: decimal-leading-zero; */
+    /* text-align: center; */
+    /* list-style-position: inside; */
+/* } */
+
+/* table{
+    border: 3px groove black;
+    width: 70%;
+    height: 400px;
+    text-align: center;
+    font-size: xx-large;
+    margin: auto;
+    margin-top: 7%;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    background-color: gray;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+td, th{
+    
+    border: 2px solid black;
+}
+
+.odd{
+    background-color: aqua;
+    color: black;
+}
+
+td:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.fa-solid{
+    color: yellow;
+    font-size: 200px;
+} */
+
+label{
+    width: 100px;
+    display: inline-block;
+    text-align: left;
+}
+
+
+form{
+    margin: auto;
+    text-align: center;
+}
+
+fieldset{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    margin-top: 7%;
+    padding: 30px;
+    color: black;
+}
+
+/* #em{
+    background-image: url('https://e7.pngegg.com/pngimages/818/690/png-clipart-email-computer-icons-gmail-email-miscellaneous-angle.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 17px;
+    background-position-x: 3px;
+    width: 70%;
+    height: 40px;
+    background-position-y: center ;
+} */
+
+body{
+    background-image: url('https://i.ytimg.com/vi/f6KZVr5Z2Cs/maxresdefault.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}

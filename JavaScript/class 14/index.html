@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .main {
+        border: 3px solid black;
+        text-align: center;
+        width: 20%;
+        padding: 20px;
+        margin: auto;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Caluculator</h1>
+
+      <div>
+        <div>
+          <input readonly type="text" name="" id="inp" />
+        </div>
+        <br />
+        <button onclick="clrall()">clear all</button>
+        <button onclick="clr()">clear</button>
+        <br />
+        <br />
+        <div>
+          <button onclick="btnClick(9)">9</button>
+          <button onclick="btnClick(8)">8</button>
+          <button onclick="btnClick(7)">7</button>
+          <button onclick="btnClick('+')">+</button>
+        </div>
+        <br />
+        <div>
+          <button onclick="btnClick(6)">6</button>
+          <button onclick="btnClick(5)">5</button>
+          <button onclick="btnClick(4)">4</button>
+          <button onclick="btnClick('-')">-</button>
+        </div>
+        <br />
+        <div>
+          <button onclick="btnClick(3)">3</button>
+          <button onclick="btnClick(2)">2</button>
+          <button onclick="btnClick(1)">1</button>
+          <button onclick="btnClick('*')">x</button>
+        </div>
+        <br />
+        <div>
+          <button onclick="btnClick(0)">0</button>
+          <button onclick="btnClick('/')">/</button>
+          <button onclick="btnClick('.')">.</button>
+          <button onclick="eq()">=</button>
+        </div>
+      </div>
+    </div>
+    <!-- <input type="text" name="" id="inp">
+    <button onclick="foo()">click</button> -->
+
+    <!-- <button onclick="foo()">click</button> -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
